@@ -2,7 +2,6 @@ var button = document.getElementById('enter');
 var input = document.getElementById('userinput');
 var ul = document.querySelector('ul');
 var li = document.querySelectorAll('li');
-console.log(ul.childElementCount);
 
 li.forEach(element => {
 	element.addEventListener('click', toggleDone);
